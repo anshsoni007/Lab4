@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background: linear-gradient(90deg, #2575fc, #6a11cb); /* Gradient background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e0f7fa; /* Light cyan background */
+}
+
+.app-container {
+  max-width: 350px; /* Reduced width for compactness */
+  margin: 20px auto;
+  padding: 20px 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.app-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px; /* Increased space between input fields */
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px; /* Smaller font size for inputs */
+}
+
+.app-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Larger text for buttons */
+}
+
+.app-container button:hover {
+  background-color: #45a049;
+}
+
+.app-container .form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-container .form-group input {
+  margin-bottom: 15px;
+}
+
+.app-container .form-group button {
+  margin-top: 10px;
+}
+
